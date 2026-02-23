@@ -11,16 +11,14 @@ This is inside a div tag with **bold text** and *italic text*.
 This is ==highlighted text==.
 This is a [[wikilink]].
 </div>
-extra enter
+no enter
 
 <p align="right">
-
 This is inside a p tag with **bold text** and *italic text*.
 This is ==highlighted text==.
 This is a [[wikilink]].
-
 </p>
-no enter
+span
 <span style="text-align: right; display: block;">
 This is inside a span tag with **bold text** and *italic text*.
 This is ==highlighted text==.
