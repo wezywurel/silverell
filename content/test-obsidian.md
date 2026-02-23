@@ -9,7 +9,6 @@ This is **bold text** and this is *italic text*.
 This is ==highlighted text==.
 
 This is a [[wikilink]].
-
 This is a [[link with|alias]].
 
 > [!note]
