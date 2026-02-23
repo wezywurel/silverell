@@ -5,7 +5,9 @@ title: Test Obsidian Formatting
 # Test Obsidian Formatting
 
 This is **bold text** 
-<p align="right">and this is *italic text*.</p>
+<p align="right">
+and this is *italic text*.
+</p>
 
 This is ==highlighted text==.
 
