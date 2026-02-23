@@ -5,7 +5,7 @@ title: Test Proper HTML with Markdown
 # Test Proper HTML with Markdown
 
 This is regular Markdown with **bold text** and *italic text*.
-
+all enter
 <div align="right">
 
 This is inside a div tag with **bold text** and *italic text*.
