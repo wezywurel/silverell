@@ -12,6 +12,7 @@ This is ==highlighted text==.
 This is a [[wikilink]].
 </div>
 extra enter
+
 <p align="right">
 
 This is inside a p tag with **bold text** and *italic text*.
