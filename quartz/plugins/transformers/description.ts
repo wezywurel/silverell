@@ -28,7 +28,7 @@ export const Description: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
       return [
         () => {
           return async (tree: HTMLRoot, file) => {
-            let frontMatterDescription = file.data.frontmatter?.description
+            let frontMatterDescription = file.data.frontmatter?.socialDescription ?? file.data.frontmatter?.description
             let text = escapeHTML(toString(tree))
 
             if (opts.replaceExternalLinks) {
