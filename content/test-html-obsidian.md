@@ -43,7 +43,7 @@ This is a [[wikilink]].
 
 This is after the div.
 
-span с enter - не работает смещение,  работает форматирование
+span с enter - работает если оставлять доп строку
 
 <span style="text-align: right; display: block;">
 
