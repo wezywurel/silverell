@@ -1,5 +1,7 @@
 ---
 title: Test HTML with Obsidian Formatting
+description: This appears in search engines
+socialDescription: This shorter version appears in Telegram previews and is optimized for social sharing
 ---
 
 # Test HTML with Obsidian Formatting
