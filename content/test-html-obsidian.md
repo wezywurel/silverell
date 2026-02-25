@@ -22,7 +22,7 @@ This is a [[wikilink]].
 
 </p>
 
-span + без enter работает смещение, работает форматирование
+span без enter + работает смещение, работает форматирование
 <span style="text-align: right; display: block;">
 This is inside a span tag with **bold text** and *italic text*.
 This is ==highlighted text==.
@@ -43,7 +43,8 @@ This is a [[wikilink]].
 
 This is after the div.
 
-span с enter + работает смещение,  работает форматирование
+span с enter - не работает смещение,  работает форматирование
+
 <span style="text-align: right; display: block;">
 
 This is inside a span tag with **bold text** and *italic text*.
@@ -57,7 +58,7 @@ This is after the span.
 
 # Test Obsidian Formatting
 
-This is **bold text** 
+This is **bold text** </br>
 р без enter - работает смещение, не работает форматирование
 <p align="right">
 and this is *italic text*.
