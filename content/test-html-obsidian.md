@@ -6,13 +6,14 @@ title: Test HTML with Obsidian Formatting
 
 This is regular Markdown with **bold text** and *italic text*.
 
+div без enter - работает смещение, не работает форматирование
 <div align="right">
 This is inside a div tag with **bold text** and *italic text*.
 This is ==highlighted text==.
 This is a [[wikilink]].
 </div>
 
- enter
+ p с enter - не работает смещение, работает форматирование
 <p align="right">
 
 This is inside a p tag with **bold text** and *italic text*.
@@ -21,7 +22,7 @@ This is a [[wikilink]].
 
 </p>
 
-span
+span + без enter работает смещение, работает форматирование
 <span style="text-align: right; display: block;">
 This is inside a span tag with **bold text** and *italic text*.
 This is ==highlighted text==.
@@ -31,7 +32,7 @@ This is a [[wikilink]].
 > [!note]
 > This is a callout note with **bold text** and *italic text*.
 
-all enter
+div с enter + работает смещение, работает форматирование
 <div align="right">
 
 This is inside a div tag with **bold text** and *italic text*.
@@ -42,6 +43,7 @@ This is a [[wikilink]].
 
 This is after the div.
 
+span с enter + работает смещение,  работает форматирование
 <span style="text-align: right; display: block;">
 
 This is inside a span tag with **bold text** and *italic text*.
@@ -56,6 +58,7 @@ This is after the span.
 # Test Obsidian Formatting
 
 This is **bold text** 
+р без enter - работает смещение, не работает форматирование
 <p align="right">
 and this is *italic text*.
 </p>
